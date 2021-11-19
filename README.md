@@ -1,1 +1,1 @@
-# -JS-Basics-Part2
+# JS-Basics-Part2
