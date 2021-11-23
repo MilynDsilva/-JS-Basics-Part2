@@ -18,6 +18,3 @@ Circle.prototype.draw = function () {
 const c1 = new Circle(1);
 const c2 = new Circle(1);
 
-Circle.prototype.toString = function() {
-    return 'Circle with radius ' + this.radius;
-}
