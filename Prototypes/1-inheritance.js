@@ -12,3 +12,6 @@ person.name = ' john';
 //delete person.name // nothing happens due to config being false
 console.log(person.name);
 //console.log(Object.keys(person)); //enum
+
+
+//L 4
