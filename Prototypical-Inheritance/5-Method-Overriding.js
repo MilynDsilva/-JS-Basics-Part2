@@ -30,3 +30,5 @@ const c = new Circle();
 console.log(c,c.duplicate);
 
 c.duplicate
+
+//re implementing a method in child object --method overrding
