@@ -1,0 +1,309 @@
+Microsoft Windows [Version 10.0.18363.592]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Milyn>$node -v
+'$node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Milyn>node -v
+v14.18.1
+
+C:\Users\Milyn>mkdir es-6-tooling
+
+C:\Users\Milyn>cd es-6-tooling
+
+C:\Users\Milyn\es-6-tooling>npm init --yes
+Wrote to C:\Users\Milyn\es-6-tooling\package.json:
+
+{
+  "name": "es-6-tooling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\Milyn\es-6-tooling>npm i babel-cli@6.26.0 babel-core@6.26.0 babel-preset-env@1.6.1 --save-dev
+npm WARN deprecated chokidar@1.7.0: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+
+> core-js@2.6.12 postinstall C:\Users\Milyn\es-6-tooling\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN es-6-tooling@1.0.0 No description
+npm WARN es-6-tooling@1.0.0 No repository field.
+
++ babel-cli@6.26.0
++ babel-preset-env@1.6.1
++ babel-core@6.26.0
+added 289 packages from 133 contributors and audited 291 packages in 46.605s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 3 vulnerabilities (1 low, 2 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\Milyn\es-6-tooling>npm audit fix
+npm WARN es-6-tooling@1.0.0 No description
+npm WARN es-6-tooling@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+up to date in 1.344s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+fixed 0 of 3 vulnerabilities in 291 scanned packages
+  3 vulnerabilities required manual review and could not be updated
+
+C:\Users\Milyn\es-6-tooling>code .
+
+C:\Users\Milyn\es-6-tooling>code .
+
+C:\Users\Milyn\es-6-tooling>npm run babel
+
+> es-6-tooling@1.0.0 babel C:\Users\Milyn\es-6-tooling
+> babel --presets env index.js -o build/index.js
+
+
+C:\Users\Milyn\es-6-tooling>npm run babel
+
+> es-6-tooling@1.0.0 babel C:\Users\Milyn\es-6-tooling
+> babel --presets env index.js -o build/index.js
+
+
+C:\Users\Milyn\es-6-tooling>cd ..
+
+C:\Users\Milyn>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Milyn>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Milyn>cd Desktop
+
+C:\Users\Milyn\Desktop>cd webpack-demo
+
+C:\Users\Milyn\Desktop\webpack-demo>npm i -g webpack-cli@2.0.14
+npm WARN deprecated nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+npm WARN deprecated babel-preset-es2015@6.24.1: 🙌  Thanks for using Babel: we recommend using babel-preset-env now: please read https://babeljs.io/env to update!
+npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+C:\Users\Milyn\AppData\Roaming\npm\webpack-cli -> C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\bin\webpack.js
+
+> core-js@2.6.12 postinstall C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> ejs@2.7.4 postinstall C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\node_modules\ejs
+> node ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+npm WARN webpack-cli@2.0.14 requires a peer of webpack@^4.0.0 but none is installed. You must install peer dependencies yourself.
+
++ webpack-cli@2.0.14
+added 790 packages from 355 contributors in 163.347s
+
+C:\Users\Milyn\Desktop\webpack-demo>webpack-cli init
+C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\utils\modify-config-helper.js:40
+        env.run(generatorName).on("end", () => {
+                               ^
+
+TypeError: env.run(...).on is not a function
+    at modifyHelperUtil (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\utils\modify-config-helper.js:40:25)
+    at initializeInquirer (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\commands\init.js:22:10)
+    at initialize (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\index.js:20:41)
+    at C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\bin\webpack.js:45:26
+    at Object.<anonymous> (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\bin\webpack.js:514:3)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+
+C:\Users\Milyn\Desktop\webpack-demo>webpack-cli init
+C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\utils\modify-config-helper.js:40
+        env.run(generatorName).on("end", () => {
+                               ^
+
+TypeError: env.run(...).on is not a function
+    at modifyHelperUtil (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\utils\modify-config-helper.js:40:25)
+    at initializeInquirer (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\commands\init.js:22:10)
+    at initialize (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\lib\index.js:20:41)
+    at C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\bin\webpack.js:45:26
+    at Object.<anonymous> (C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\bin\webpack.js:514:3)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+
+C:\Users\Milyn\Desktop\webpack-demo>npm i -g webpack-cli@3.3.2
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+C:\Users\Milyn\AppData\Roaming\npm\webpack-cli -> C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\bin\cli.js
+
+> webpack-cli@3.3.2 postinstall C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli
+> node ./bin/opencollective.js
+
+
+
+                            Thanks for using Webpack!
+                 Please consider donating to our Open Collective
+                        to help us maintain this package.
+
+
+
+                 Donate: https://opencollective.com/webpack/donate
+
+
+npm WARN webpack-cli@3.3.2 requires a peer of webpack@4.x.x but none is installed. You must install peer dependencies yourself.
+
++ webpack-cli@3.3.2
+added 4 packages from 8 contributors, removed 588 packages, updated 34 packages and moved 17 packages in 27.998s
+
+C:\Users\Milyn\Desktop\webpack-demo>webpack-cli init
+The command moved into a separate package: @webpack-cli/init
+Would you like to install init? (That will run npm install -g @webpack-cli/init) (yes/NO) : no
+@webpack-cli/init needs to be installed in order to run the command.
+
+C:\Users\Milyn\Desktop\webpack-demo>i webpack-cli init
+'i' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Milyn\Desktop\webpack-demo>install webpack-cli init
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Milyn\Desktop\webpack-demo>npm i -g webpack-cli init
+C:\Users\Milyn\AppData\Roaming\npm\webpack-cli -> C:\Users\Milyn\AppData\Roaming\npm\node_modules\webpack-cli\bin\cli.js
+npm WARN webpack-cli@4.9.1 requires a peer of webpack@4.x.x || 5.x.x but none is installed. You must install peer dependencies yourself.
+npm WARN @webpack-cli/configtest@1.1.0 requires a peer of webpack@4.x.x || 5.x.x but none is installed. You must install peer dependencies yourself.
+
++ webpack-cli@4.9.1
++ init@0.1.2
+added 24 packages from 33 contributors, removed 179 packages and updated 19 packages in 10.027s
+
+C:\Users\Milyn\Desktop\webpack-demo>webpack-cli init
+[webpack-cli] For using this command you need to install: '@webpack-cli/generators' package.
+[webpack-cli] Would you like to install '@webpack-cli/generators' package? (That will run 'npm install -D @webpack-cli/generators') (Y/n) no
+
+C:\Users\Milyn\Desktop\webpack-demo>webpack-cli init
+[webpack-cli] For using this command you need to install: '@webpack-cli/generators' package.
+[webpack-cli] Would you like to install '@webpack-cli/generators' package? (That will run 'npm install -D @webpack-cli/generators') (Y/n) y
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+
+> ejs@2.7.4 postinstall C:\Users\Milyn\Desktop\webpack-demo\node_modules\ejs
+> node ./postinstall.js
+
+Thank you for installing EJS: built with the Jake JavaScript build tool (https://jakejs.com/)
+
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\Milyn\Desktop\webpack-demo\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\Milyn\Desktop\webpack-demo\package.json'
+npm WARN @webpack-cli/generators@2.4.1 requires a peer of webpack@4.x.x || 5.x.x but none is installed. You must install peer dependencies yourself.
+npm WARN webpack-cli@4.9.1 requires a peer of webpack@4.x.x || 5.x.x but none is installed. You must install peer dependencies yourself.
+npm WARN @webpack-cli/configtest@1.1.0 requires a peer of webpack@4.x.x || 5.x.x but none is installed. You must install peer dependencies yourself.
+npm WARN webpack-demo No description
+npm WARN webpack-demo No repository field.
+npm WARN webpack-demo No README data
+npm WARN webpack-demo No license field.
+
++ @webpack-cli/generators@2.4.1
+added 402 packages from 305 contributors and audited 402 packages in 70.652s
+
+27 packages are looking for funding
+  run `npm fund` for details
+
+found 5 vulnerabilities (2 moderate, 3 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+[webpack-cli] No commands found to run
+
+C:\Users\Milyn\Desktop\webpack-demo>npm audit
+npm ERR! code EAUDITNOPJSON
+npm ERR! audit No package.json found: Cannot audit a project without a package.json
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Milyn\AppData\Roaming\npm-cache\_logs\2021-11-26T11_41_24_367Z-debug.log
+
+C:\Users\Milyn\Desktop\webpack-demo>npm audit fix
+npm ERR! code EAUDITNOPJSON
+npm ERR! audit No package.json found: Cannot audit a project without a package.json
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Milyn\AppData\Roaming\npm-cache\_logs\2021-11-26T11_41_36_816Z-debug.log
+
+C:\Users\Milyn\Desktop\webpack-demo>webpack-cli init
+? Which of the following JS solutions do you want to use? ES6
+? Do you want to use webpack-dev-server? No
+? Do you want to simplify the creation of HTML files for your bundle? No
+? Do you want to add PWA support? No
+? Which of the following CSS solutions do you want to use? none
+? Do you like to install prettier to format generated configuration? No
+[webpack-cli] ℹ INFO  Initialising project...
+   create package.json
+   create src\index.js
+   create README.md
+ conflict index.html
+? Overwrite index.html? overwrite
+    force index.html
+   create webpack.config.js
+   create .babelrc
+npm WARN my-webpack-project@1.0.0 No repository field.
+npm WARN my-webpack-project@1.0.0 No license field.
+
++ webpack-cli@4.9.1
++ babel-loader@8.2.3
++ @babel/core@7.16.0
++ @babel/preset-env@7.16.4
++ webpack@5.64.4
+added 212 packages from 107 contributors, removed 329 packages, updated 2 packages, moved 5 packages and audited 285 packages in 71.828s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[webpack-cli] ⚠ Generated configuration may not be properly formatted as prettier is not installed.
+[webpack-cli] Project has been initialised with webpack!
+
+C:\Users\Milyn\Desktop\webpack-demo>code .
+
+C:\Users\Milyn\Desktop\webpack-demo>
